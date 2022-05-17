@@ -12,20 +12,24 @@
 
 <body>
     <!--El navegador o menu de ariba-->
-    <nav class="navegador" id="navbar">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
         
-        <ul class="lista-navegador" id="navLista">
-            <div class="logotipo">
-                <a href="../index.html" class="yunito"> Sorido0 </a> 
-            </div>
+        <a href="#" class="enlace">
+            <img src="http://drive.google.com/uc?export=view&id=1GNN023iowvyIaN_RsB_ee--pTTJ6XLj6" alt="logipo" class="logo">
+        </a>
+        <ul>
             <li>
-                <a href="#project">Proyectos</a>
+                <a href="#project" class="active">Proyectos</a>
             </li>
             <li>
-                <a href="#contact-section">Contacto</a>
+                <a href="#contact-section" class="active">Contacto</a>
             </li>
             <li>
-                <a href="https://rebrand.ly/tbzfdlz" target="_blank"> Curriculum</a>
+                <a href="https://rebrand.ly/tbzfdlz" target="_blank" class="active"> Curriculum</a>
             </li>
         </ul>
     </nav>
@@ -33,14 +37,57 @@
     <!--La bienvenida-->
     <section class="bienvenido-seccion" id="bienvenido-seccion">
         
-        <header>Hola soy Sorido0</header>
-        <p>Un desarrolador Web</p>
+        <header> <b> Hola soy Sorido0 </b> </header>
+        <p> <b> Un desarrolador Web </b> </p>
     </section>
     <!--Final bienvenio-->
     <!--Inicio Proyectos-->
     <section class="proyectos" id="project">
         <h2 class="proyectoSectionHeader">Proyectos</h2>
         <div id="gridProyectos" class="projects-grid">
+            <a href="https://sorido0.github.io/React-GitExpertApp/" target="_black" class="project">
+                <img src="git.jpg" alt="homenaje" class="project-image">
+                <p class="project-title" id="tituloProyecto">
+                    <span class="code" id="codigo">
+                        <</span>
+                            Gif App.
+                        <samp span class="code" id="codigo">></samp>
+                </p>
+                </img>
+            </a>
+            <a href="https://sorido0.github.io/Calculadora/" target="_black" class="project">
+                <img src="calculadora.jpg" 
+                alt="homenaje" class="project-image">
+                <p class="project-title" id="tituloProyecto">
+                    <span class="code" id="codigo">
+                        <</span>
+                            Calculadora.
+                        <samp span class="code" id="codigo">></samp>
+                </p>
+                </img>
+            </a>
+            <a href="https://sorido0.github.io/Tareas/" target="_black" class="project">
+                <img src="tarea.jpg" 
+                alt="homenaje" class="project-image">
+                <p class="project-title" id="tituloProyecto">
+                    <span class="code" id="codigo">
+                        <</span>
+                            Adm-Tarea.
+                        <samp span class="code" id="codigo">></samp>
+                </p>
+                </img>
+            </a>
+            <a href="https://sorido0.github.io/contador/" target="_black" class="project">
+                <img src="conClick.jpg" 
+                alt="homenaje" class="project-image">
+                <p class="project-title" id="tituloProyecto">
+                    <span class="code" id="codigo">
+                        <</span>
+                            CountClick.
+                        <samp span class="code" id="codigo">></samp>
+                </p>
+                </img>
+            </a>
             <a href="https://zi9vziakfwbxjhzxx5oing.on.drv.tw/Micurriculum/sorido0.html" target="-blank" class="project"
                 id="proyectos">
                 <img src="http://drive.google.com/uc?export=view&id=1PizP_6zHqnf3sGhg6fjsCJ4ZGDgkzbkN" alt="proyectoMiCV"
@@ -48,7 +95,7 @@
                 <p class="project-title" id="tituloProyecto">
                     <span class="code" id="codigo">
                         <</span>
-                            Angel Soriano CV.
+                            Mi Curriculum.
                         <samp span class="code" id="codigo">></samp>
                 </p>
                 </img>
@@ -81,7 +128,7 @@
                     <p class="project-title" id="tituloProyecto">
                         <span class="code" id="codigo">
                             <</span>
-                                Documentacion JS
+                                Docs JS
                             <samp span class="code" id="codigo">></samp>
                     </p>
                 </img>
